@@ -1,6 +1,6 @@
-package com.sns.factory;
+package com.designpattern.factorymethod.mainFactory;
 
-import com.sns.interfaces.Vehicle;
+import com.designpattern.factorymethod.interfaces.Vehicle;
 
 import java.util.logging.Logger;
 

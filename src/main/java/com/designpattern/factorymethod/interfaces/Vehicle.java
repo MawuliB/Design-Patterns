@@ -1,4 +1,4 @@
-package com.sns.interfaces;
+package com.designpattern.factorymethod.interfaces;
 
 public interface Vehicle {
 

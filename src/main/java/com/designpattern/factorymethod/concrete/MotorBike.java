@@ -1,6 +1,6 @@
-package com.sns.concrete;
+package com.designpattern.factorymethod.concrete;
 
-import com.sns.interfaces.Vehicle;
+import com.designpattern.factorymethod.interfaces.Vehicle;
 
 import java.util.logging.Logger;
 

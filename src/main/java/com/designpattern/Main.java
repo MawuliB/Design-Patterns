@@ -1,9 +1,9 @@
-package com.sns;
+package com.designpattern;
 
-import com.sns.factories.BicycleFactory;
-import com.sns.factories.CarFactory;
-import com.sns.factories.MotorBikeFactory;
-import com.sns.factory.VehicleFactory;
+import com.designpattern.factorymethod.factories.BicycleFactory;
+import com.designpattern.factorymethod.factories.CarFactory;
+import com.designpattern.factorymethod.factories.MotorBikeFactory;
+import com.designpattern.factorymethod.mainFactory.VehicleFactory;
 
 import java.util.logging.Logger;
 
@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
 
         Logger log = Logger.getLogger(Main.class.getName());
-
+        //Factory Method
         VehicleFactory vehicle1 = new CarFactory();
         vehicle1.printDetails();
         log.warning("\n\n");
